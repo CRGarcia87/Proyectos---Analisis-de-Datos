@@ -5,6 +5,11 @@ Este proyecto es una solución analítica de extremo a extremo (End-to-End) dise
 
 A partir de un dataset transaccional de 10,000 registros, desarrollé un pipeline de datos que extrae la información, la limpia, procesa reglas de negocio en un motor relacional y culmina en un dashboard gerencial interactivo. El objetivo principal es proporcionar insights accionables al área Comercial para diseñar campañas de retención precisas y proteger el capital del banco.
 
+## 📁 Origen de Datos
+El análisis se fundamenta en el **Bank Customer Churn Dataset**, un registro transaccional público que detalla el comportamiento, perfil demográfico y estado financiero de 10,000 clientes de una entidad bancaria europea.
+* **Fuente:** Kaggle
+* **Enlace al dataset original:** [Bank Customer Churn Dataset en Kaggle](https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers).
+
 ## 🛠️ Stack Tecnológico
 * **Python (pandas):** Extracción, Análisis Exploratorio de Datos (EDA) y limpieza de nulos/duplicados para generar un "Golden Record".
 * **PostgreSQL:** Almacenamiento, estructuración y creación de Vistas (`VIEWS`) con lógica de negocio (Segmentación demográfica y financiera).
